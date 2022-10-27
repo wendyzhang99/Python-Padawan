@@ -38,7 +38,7 @@ def timeConversion(s):
     # Write your code here
     if s[-2:] == "AM" and s[:2] == "12":
         time = '00' + s[2:len(s) - 2]
-    if s[-2:] == "PM" and s[:2] != "12":
+    elif s[-2:] == "PM" and s[:2] != "12":
         time = str(int(s[:2])+ 12) + s[2:len(s) - 2]        
     else:
         time = s[0:len(s) - 2]
