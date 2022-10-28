@@ -30,3 +30,15 @@ def compareTriplets(a, b):
 
 ```python
 
+
+
+```
+## [List Comprehensions](https://www.hackerrank.com/challenges/list-comprehensions/problem)
+```python
+
+```
+## [Nested Lists](https://www.hackerrank.com/challenges/nested-list/problem)
+```python
+if __name__ == '__main__':
+    print((lambda ls: '\n'.join(sorted([n for n, s in ls if s == sorted(set(list(zip(*ls))[1]))[1]])))([(input(), float(input())) for _ in range(int(input()))]))
+```
